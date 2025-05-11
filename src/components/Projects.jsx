@@ -3,26 +3,37 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Ticker AI",
     description:
       "A full-featured online store with cart, checkout, and admin dashboard.",
-    tags: ["React", "Node.js", "MongoDB"],
-    image: "https://via.placeholder.com/600x400",
+    tags: ["React", "JavaScript", "Tailwind CSS"],
+    image: "src/assets/t.jpg",
+    link: "https://tickerai26.netlify.app/",
   },
   {
     id: 2,
-    title: "Task Management App",
-    description:
-      "A productivity app for organizing tasks with drag-and-drop functionality.",
-    tags: ["React", "Firebase", "Tailwind"],
-    image: "https://via.placeholder.com/600x400",
+    title: "Electrical",
+    description: "ELECTRICAL SERVICE PROVIDERS",
+    tags: ["React", "Animate.CSS", "Tailwind"],
+    image: "src/assets/EC.png",
+    link: "https://electri4455.netlify.app/",
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "A responsive portfolio website for creative professionals.",
-    tags: ["React", "GSAP", "CSS"],
-    image: "https://via.placeholder.com/600x400",
+    title: "Creative",
+    description: "Gain skills required to succeed in an entry-level IT job",
+    tags: ["JavaScript","Html", "CSS"],
+    image: "src/assets/CRW.png",
+    link: "https://it-support10.netlify.app/#",
+  },
+  {
+    id: 4,
+    title: "University",
+    description:
+      "To create a personalised pathway for continuous learning and transferrable skills development.",
+    tags: ["Javascript", "getwaves", "CSS"],
+    image: "src/assets/U.png",
+    link: "https://creativemember.netlify.app/#",
   },
 ];
 
@@ -46,15 +57,13 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-[250px] object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 mb-4">
-                  {project.description}
-                </p>
+                <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, index) => (
                     <span
@@ -65,24 +74,30 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <Link
-                  to={`/projects/${project.id}`}
-                  className="text-accent font-medium hover:underline"
-                >
-                  View Details →
-                </Link>
+                <div>
+                  <a 
+                  target="_blank"
+                  href={project.link}
+                  className="border-b"
+                  >Live Link</a>
+                </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Link
             to="/projects"
             className="inline-block bg-accent hover:text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition shadow-lg"
           >
             View All Projects
           </Link>
+        </div> */}
+        <div className="text-center mt-12">
+          <h1 className="inline-block bg-accent hover:text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition shadow-lg">
+            More Project Coming Soon.....
+          </h1>
         </div>
       </div>
     </section>

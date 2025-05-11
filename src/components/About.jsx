@@ -13,7 +13,7 @@ const About = () => {
           <div className="lg:w-1/3 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <img
-                src="https://via.placeholder.com/400x400"
+                src="src\assets\logo.jpeg"
                 alt="About Me"
                 className="w-full h-full rounded-lg object-cover shadow-xl"
               />
@@ -26,24 +26,24 @@ const About = () => {
               Who am I?
             </h3>
             <p className="text-gray-600  mb-6">
-              I'm a passionate web developer with over 5 years of experience
+              I'm a passionate web developer with over 2 years of experience
               creating modern web applications. I specialize in JavaScript,
-              React, Node.js, and have a strong focus on responsive design and
+              React, React Redux, Tailwind CSS, Material UI and have a strong focus on responsive design and
               user experience.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div>
                 <h4 className="font-medium text-gray-800 mb-2">
-                  <span className="text-accent">Name:</span> John Doe
+                  <span className="text-accent">Name:</span> Liton Ali
                 </h4>
-                <h4 className="font-medium text-gray-800mb-2">
-                  <span className="text-accent">Email:</span> john@example.com
+                <h4 className="font-medium text-gray-800 mb-2">
+                  <span className="text-accent">Email:</span> mdlitonali9118@gmail.com
                 </h4>
               </div>
               <div>
                 <h4 className="font-medium text-gray-800 mb-2">
-                  <span className="text-accent">From:</span> San Francisco, USA
+                  <span className="text-accent">From:</span> Rajshahi, Bangladesh
                 </h4>
                 <h4 className="font-medium text-gray-800 ">
                   <span className="text-accent">Freelance:</span> Available

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -9,17 +9,17 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle("dark");
-    localStorage.setItem("theme", darkMode ? "light" : "dark");
-  };
+  // const toggleDarkMode = () => {
+  //   setDarkMode(!darkMode);
+  //   document.documentElement.classList.toggle("dark");
+  //   localStorage.setItem("theme", darkMode ? "light" : "dark");
+  // };
 
   return (
     <div className="min-h-screen">
-      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Navbar />
       <main>
         <Hero />
         <About />

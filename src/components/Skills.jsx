@@ -3,10 +3,12 @@ const skills = [
   { name: "CSS/Tailwind", level: 90 },
   { name: "JavaScript", level: 85 },
   { name: "React", level: 85 },
+  { name: "Wordpress", level: 90 },
   { name: "Node.js", level: 50 },
   { name: "Express", level: 45 },
   { name: "MongoDB", level: 50 },
   { name: "Next.JS", level: 50 },
+
   { name: "Git", level: 85 },
 ];
 

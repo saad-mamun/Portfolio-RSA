@@ -9,7 +9,7 @@ const ProjectDetails = () => {
   // In a real app, you would fetch this data based on the id
   const project = {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Project Information",
     description:
       "A full-featured online store with product listings, shopping cart, secure checkout, and admin dashboard for inventory management.",
     longDescription: [
@@ -17,7 +17,7 @@ const ProjectDetails = () => {
       "Key features include user authentication, product search and filtering, cart functionality, payment processing with Stripe integration, and an admin dashboard for managing products, orders, and customers.",
       "The application is fully responsive and optimized for performance, with lazy loading of images and code splitting to ensure fast load times.",
     ],
-    tags: ["React", "Redux", "Node.js", "Express", "MongoDB", "Stripe"],
+    tags: ["React", "Redux", "JavaScript", "Tailwind CSS", "CSS", "HTML"],
     images: [
       "https://via.placeholder.com/800x500",
       "https://via.placeholder.com/800x500",
