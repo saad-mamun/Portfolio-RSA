@@ -9,7 +9,7 @@ const Hero = () => {
             Hi, I'm <span className="text-accent">Liton Ali</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-600  mb-6">
-            Front End Web Developer
+            Full-Stack Web Developer
           </h2>
           <p className="text-gray-600 mb-8 max-w-lg">
             I build exceptional digital experiences that are fast, accessible,

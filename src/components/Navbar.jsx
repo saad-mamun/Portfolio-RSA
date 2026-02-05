@@ -30,7 +30,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-accent">
+            <span> &lt;</span>
             DevPortfolio
+            <span> /&gt; </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -63,7 +65,6 @@ const Navbar = () => {
 
           {/* Mobile Navigation Toggle */}
           <div className="flex md:hidden items-center space-x-4">
-  
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-full text-gray-700 dark:hover:bg-gray-700 transition"
