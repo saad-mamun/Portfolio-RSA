@@ -13,7 +13,7 @@ const About = () => {
           <div className="lg:w-1/3 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <img
-                src="public/ramdas.jpg"
+                src="/ramdas.jpg"
                 alt="About Me"
                 className="w-full h-full rounded-lg object-cover shadow-xl"
               />

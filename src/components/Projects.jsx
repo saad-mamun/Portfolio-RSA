@@ -7,7 +7,7 @@ const projects = [
     description:
       "A full-featured online store with cart, checkout, and admin dashboard.",
     tags: ["React", "JavaScript", "Tailwind CSS"],
-    image: "public/t.jpg",
+    image: "/t.jpg",
     link: "https://tickerai26.netlify.app/",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     title: "Electrical",
     description: "ELECTRICAL SERVICE PROVIDERS",
     tags: ["React", "Animate.CSS", "Tailwind"],
-    image: "public/EC.png",
+    image: "/EC.png",
     link: "https://electri4455.netlify.app/",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: "Creative",
     description: "Gain skills required to succeed in an entry-level IT job",
     tags: ["JavaScript","Html", "CSS"],
-    image: "public/CRW.png",
+    image: "/CRW.png",
     link: "https://it-support10.netlify.app/#",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "To create a personalised pathway for continuous learning and transferrable skills development.",
     tags: ["Javascript", "getwaves", "CSS"],
-    image: "public/U.png",
+    image: "/U.png",
     link: "https://creativemember.netlify.app/#",
   },
 ];
